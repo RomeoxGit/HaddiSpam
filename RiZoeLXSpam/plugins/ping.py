@@ -33,20 +33,20 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-@Riz.on(events.NewMessage(pattern=".ping"))
-@Riz2.on(events.NewMessage(pattern=".ping"))
-@Riz3.on(events.NewMessage(pattern=".ping"))
-@Riz4.on(events.NewMessage(pattern=".ping"))
-@Riz5.on(events.NewMessage(pattern=".ping"))
-@Riz6.on(events.NewMessage(pattern=".ping"))
-@Riz7.on(events.NewMessage(pattern=".ping"))
-@Riz8.on(events.NewMessage(pattern=".ping"))
-@Riz9.on(events.NewMessage(pattern=".ping"))
-@Riz10.on(events.NewMessage(pattern=".ping"))
-async def ping(e):
+@Riz.on(events.NewMessage(pattern=".himanshu"))
+@Riz2.on(events.NewMessage(pattern=".himanshu"))
+@Riz3.on(events.NewMessage(pattern=".himanshu"))
+@Riz4.on(events.NewMessage(pattern=".himanshu"))
+@Riz5.on(events.NewMessage(pattern=".himanshu"))
+@Riz6.on(events.NewMessage(pattern=".himanshu"))
+@Riz7.on(events.NewMessage(pattern=".himanshu"))
+@Riz8.on(events.NewMessage(pattern=".himanshu"))
+@Riz9.on(events.NewMessage(pattern=".himanshu"))
+@Riz10.on(events.NewMessage(pattern=".himanshu"))
+async def himanshu(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        text = "Pong!"
+        text = " "
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
