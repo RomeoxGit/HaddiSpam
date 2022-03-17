@@ -33,17 +33,17 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-@Riz.on(events.NewMessage(pattern=".himanshu"))
-@Riz2.on(events.NewMessage(pattern=".himanshu"))
-@Riz3.on(events.NewMessage(pattern=".himanshu"))
-@Riz4.on(events.NewMessage(pattern=".himanshu"))
-@Riz5.on(events.NewMessage(pattern=".himanshu"))
-@Riz6.on(events.NewMessage(pattern=".himanshu"))
-@Riz7.on(events.NewMessage(pattern=".himanshu"))
-@Riz8.on(events.NewMessage(pattern=".himanshu"))
-@Riz9.on(events.NewMessage(pattern=".himanshu"))
-@Riz10.on(events.NewMessage(pattern=".himanshu"))
-async def himanshu(e):
+@Riz.on(events.NewMessage(pattern=".haddi"))
+@Riz2.on(events.NewMessage(pattern=".haddi"))
+@Riz3.on(events.NewMessage(pattern=".haddi"))
+@Riz4.on(events.NewMessage(pattern=".haddi"))
+@Riz5.on(events.NewMessage(pattern=".haddi"))
+@Riz6.on(events.NewMessage(pattern=".haddi"))
+@Riz7.on(events.NewMessage(pattern=".haddi"))
+@Riz8.on(events.NewMessage(pattern=".haddi"))
+@Riz9.on(events.NewMessage(pattern=".haddi"))
+@Riz10.on(events.NewMessage(pattern=".haddi"))
+async def haddi(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
         text = "𝖧𝗂𝗆𝖺𝗇𝗌𝗁𝗎 𝖡𝖺𝖻𝗒 !! 𝖨 𝖺𝗆 𝖠𝗅𝗂𝗏𝖾 🔥"
