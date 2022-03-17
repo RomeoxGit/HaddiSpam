@@ -5,19 +5,19 @@ import random
 import sys
 
 
-@Riz.on(events.NewMessage(pattern=".restart"))
-@Riz2.on(events.NewMessage(pattern=".restart"))
-@Riz3.on(events.NewMessage(pattern=".restart"))
-@Riz4.on(events.NewMessage(pattern=".restart"))
-@Riz5.on(events.NewMessage(pattern=".restart"))
-@Riz6.on(events.NewMessage(pattern=".restart"))
-@Riz7.on(events.NewMessage(pattern=".restart"))
-@Riz8.on(events.NewMessage(pattern=".restart"))
-@Riz9.on(events.NewMessage(pattern=".restart"))
-@Riz10.on(events.NewMessage(pattern=".restart"))
-async def restart(e):
+@Riz.on(events.NewMessage(pattern=".refresh"))
+@Riz2.on(events.NewMessage(pattern=".refresh"))
+@Riz3.on(events.NewMessage(pattern=".refresh"))
+@Riz4.on(events.NewMessage(pattern=".refresh"))
+@Riz5.on(events.NewMessage(pattern=".refresh"))
+@Riz6.on(events.NewMessage(pattern=".refresh"))
+@Riz7.on(events.NewMessage(pattern=".refresh"))
+@Riz8.on(events.NewMessage(pattern=".refresh"))
+@Riz9.on(events.NewMessage(pattern=".refresh"))
+@Riz10.on(events.NewMessage(pattern=".refresh"))
+async def refresh(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your RiZoeL X Spam**.. Please Wait Until It Starts Again"
+        text = "𝖱𝖾𝖿𝗋𝖾𝗌𝗁𝗂𝗇𝗀.... 𝖠𝗇𝖽 𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗇𝗀 𝖳𝗈 𝖳𝗁𝖾 **𝘙𝘰𝘮𝘦𝘰'𝘴 𝘚𝘦𝘳𝘷𝘦𝘳** !! 𝖯𝗅𝗓 𝖶𝖺𝗂𝗍 𝖥𝗈𝗋 𝖥𝖾𝗐 𝖬𝗂𝗇𝗎𝗍𝖾𝗌 ✨"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
