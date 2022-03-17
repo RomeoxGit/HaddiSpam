@@ -50,7 +50,7 @@ async def haddi(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"𝖧𝗂𝗆𝖺𝗇𝗌𝗁𝗎 𝖡𝖺𝖻𝗒 !! 𝖨 𝖺𝗆 𝖠𝗅𝗂𝗏𝖾 🔥")                       
+        await event.edit(f"🔥 𝗦𝗽𝗮𝗺'𝗫'𝗚𝗼𝗱 🔥")                       
 
 
 # ▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀
